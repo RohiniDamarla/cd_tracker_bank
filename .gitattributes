@@ -1,0 +1,15 @@
+# Normalize all text files to LF on commit
+* text=auto
+
+# Force LF for Python and HTML templates
+*.py text eol=lf
+*.html text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+
+# Treat images and binaries as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.db binary
