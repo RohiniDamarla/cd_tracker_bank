@@ -18,25 +18,39 @@ A secure, modular Flask web app for tracking Certificates of Deposit (CDs) acros
 ## 🗂️ Folder Structure
 cd_tracker_bank/ ├── app.py                  # Main entry point ├── app_core/               # Configs, imports, seed scripts ├── routes/                 # Modular route files (curdroutes, auth, etc.) ├── templates/              # HTML templates (Bootstrap 5 styled) ├── static/                 # CSS and JS files ├── instance/               # SQLite DB and .gitignore ├── models.py               # SQLAlchemy models ├── requirements.txt        # Python dependencies ├── Procfile                # For deployment (e.g. Heroku) └── .gitignore              # Excludes venv, DB, secrets
 
----
+⚙️ Setup Instructions
+Follow these steps to get the CD Tracker Bank app running locally:
 
-## ⚙️ Setup Instructions
-
-### 1. Clone the repo
-
-```bash
+🧬 1. Clone the Repository
 git clone https://github.com/RohiniDamarla/cd_tracker_bank.git
 cd cd_tracker_bank
-2. Create virtual environment
+
+🧪 2. Create a Virtual Environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-3. Install dependencies
+
+Activate it:
+- - Windows
+venv\Scripts\activate
+- Mac/Linux
+source venv/bin/activate
+
+📦 3. Install Dependencies
 pip install -r requirements.txt
 
-4. Run the app
-#flask run
+🚀 4. Run the App
+You can start the app with:
 python app.py runserver
-App will run locally at http://127.0.0.1:5000
+
+The app will be available at:
+🌐 http://127.0.0.1:5000
+
+
+
+
+---
+
+
+
 
 
 
